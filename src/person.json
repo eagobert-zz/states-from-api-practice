@@ -1,0 +1,228 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "firstName": "Julie",
+            "lastName": "Carey",
+            "address": {
+                "street": "456 Java Street",
+                "city": "Vienna",
+                "state": "ID"
+            }
+        },
+        {
+            "id": 2,
+            "firstName": "Lesa",
+            "lastName": "Yang",
+            "address": {
+                "street": "123 Havemeyer Street",
+                "city": "Edmund",
+                "state": "ND"
+            }
+        },
+        {
+            "id": 3,
+            "firstName": "Santana",
+            "lastName": "Burgess",
+            "address": {
+                "street": "789 Dekoven Court",
+                "city": "Deercroft",
+                "state": "WY"
+            }
+        },
+        {
+            "id": 4,
+            "firstName": "Katharine",
+            "lastName": "Cannon",
+            "address": {
+                "street": "789 Heath Place",
+                "city": "Gibsonia",
+                "state": "WV"
+            }
+        },
+        {
+            "id": 5,
+            "firstName": "Doreen",
+            "lastName": "Bailey",
+            "address": {
+                "street": "456 Front Street",
+                "city": "Draper",
+                "state": "AS"
+            }
+        },
+        {
+            "id": 6,
+            "firstName": "Sonja",
+            "lastName": "Marks",
+            "address": {
+                "street": "456 Herkimer Street",
+                "city": "Wacissa",
+                "state": "CT"
+            }
+        },
+        {
+            "id": 7,
+            "firstName": "Sharp",
+            "lastName": "Riddle",
+            "address": {
+                "street": "789 Morton Street",
+                "city": "Gracey",
+                "state": "NV"
+            }
+        },
+        {
+            "id": 8,
+            "firstName": "Cox",
+            "lastName": "Patton",
+            "address": {
+                "street": "123 Bartlett Place",
+                "city": "Englevale",
+                "state": "WI"
+            }
+        },
+        {
+            "id": 9,
+            "firstName": "Lynette",
+            "lastName": "Kane",
+            "address": {
+                "street": "456 Bainbridge Street",
+                "city": "Dupuyer",
+                "state": "WA"
+            }
+        },
+        {
+            "id": 10,
+            "firstName": "Bradford",
+            "lastName": "Workman",
+            "address": {
+                "street": "456 Horace Court",
+                "city": "Remington",
+                "state": "IL"
+            }
+        }
+    ],
+    "vehicles": [
+        {
+            "id": 1,
+            "peopleId": 1,
+            "make": "Honda",
+            "model": "fugiat"
+        },
+        {
+            "id": 2,
+            "peopleId": 7,
+            "make": "Honda",
+            "model": "exercitation"
+        },
+        {
+            "id": 3,
+            "peopleId": 1,
+            "make": "Toyota",
+            "model": "elit"
+        },
+        {
+            "id": 4,
+            "peopleId": 4,
+            "make": "Toyota",
+            "model": "ullamco"
+        },
+        {
+            "id": 5,
+            "peopleId": 5,
+            "make": "Toyota",
+            "model": "veniam"
+        },
+        {
+            "id": 6,
+            "peopleId": 6,
+            "make": "Jeep",
+            "model": "minim"
+        },
+        {
+            "id": 7,
+            "peopleId": 10,
+            "make": "Jeep",
+            "model": "sit"
+        },
+        {
+            "id": 8,
+            "peopleId": 1,
+            "make": "Toyota",
+            "model": "proident"
+        },
+        {
+            "id": 9,
+            "peopleId": 4,
+            "make": "Honda",
+            "model": "eiusmod"
+        },
+        {
+            "id": 10,
+            "peopleId": 5,
+            "make": "Honda",
+            "model": "aute"
+        }
+    ],
+    "pets": [
+        {
+            "id": 1,
+            "peopleId": 3,
+            "name": "Leta",
+            "species": "Siamese"
+        },
+        {
+            "id": 2,
+            "peopleId": 10,
+            "name": "Gwen",
+            "species": "Mau"
+        },
+        {
+            "id": 3,
+            "peopleId": 2,
+            "name": "Norton",
+            "species": "Sphinx"
+        },
+        {
+            "id": 4,
+            "peopleId": 1,
+            "name": "Lloyd",
+            "species": "Mutt"
+        },
+        {
+            "id": 5,
+            "peopleId": 2,
+            "name": "Jayne",
+            "species": "Mau"
+        },
+        {
+            "id": 6,
+            "peopleId": 10,
+            "name": "Margo",
+            "species": "Sphinx"
+        },
+        {
+            "id": 7,
+            "peopleId": 7,
+            "name": "Christensen",
+            "species": "Mutt"
+        },
+        {
+            "id": 8,
+            "peopleId": 6,
+            "name": "Gibbs",
+            "species": "Mutt"
+        },
+        {
+            "id": 9,
+            "peopleId": 3,
+            "name": "Tran",
+            "species": "Pug"
+        },
+        {
+            "id": 10,
+            "peopleId": 6,
+            "name": "Salazar",
+            "species": "Sphinx"
+        }
+    ]
+}
