@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PeopleList from './PeopleList'
+//import 'typeface-roboto'
 
 //Realize I was supposed to use only my data.  Went a little extra and created more data using fakeJSON. Now I have to fetch multiple collections from API.  Changed class from "Erin" to "Person"
 class PeopleContainer extends Component {
