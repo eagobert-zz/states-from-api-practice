@@ -4,7 +4,7 @@ class Vehicle extends Component {
     render(){
         return(
         <span>
-            <p>{this.props.make}, {this.props.model}</p>
+            <p>Vehicle: {this.props.vehicle.make}, {this.props.vehicle.model}</p>
         </span>)
     }
 }

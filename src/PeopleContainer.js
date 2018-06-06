@@ -6,17 +6,19 @@ class PeopleContainer extends Component {
 
 //can also add constructor, super(props), and this to the variable "state".
 
-    //set the initial state of class Person
+    //set the initial state of parent container
    constructor(props){
        super(props)
        this.state = {
         people: [],
         vehicles: [],
-        pets: []
+        pets: [],
+       // peopleVehicles: [],
+       // peoplePets: []
     }
    }
    
-    //fetch all people, vehicles, and pet data 
+    //create function to fetch all people, vehicles, and pet data 
     loadData(){
         
         fetch("http://localhost:8088/people")
@@ -45,8 +47,9 @@ class PeopleContainer extends Component {
             //view all collections in state
             console.log(this.state)
         })
-        
+     
     }
+
     
     //load data and mount after rendering PeopleContainer
     componentDidMount(){
