@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Person from "./Person"
-//import Vehicle from "./Vehicle"
+import Vehicle from "./Vehicle"
 //import Pet from "./Pet"
 
 
@@ -10,13 +10,13 @@ class PeopleList extends Component {
         return (
             <ul>
                 {this.props.people.map(person => {
-                  return <Person key={person.id} firstName={person.firstName} lastName={person.lastName} street={person.address.street} city={person.address.city} state={person.address.state}/>
+                  return <Person key={person.id} person={person}/>
+                  
                 })}
-                {/* <li>
-                    <Person key={}/>
-                    <Vehicle />
-                    <Pet />
-                </li> */}
+                {/* {this.props.vehicles.map(vehicle => {
+                    return <Vehicle key={vehicle.id} make={vehicle.make} model={vehicle.model}/>
+                })} */}
+
             </ul>
         );
     }
